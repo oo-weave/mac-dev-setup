@@ -79,17 +79,19 @@ set WEAVE $HOME/go/src/weavelab.xyz
 mkdir -p $WEAVE
 ln -s $WEAVE $HOME/weave
 
+# weave
+echo 'export GOPRIVATE=weavelab.xyz/*' >> ~/.zshrc
 
 # install and configure fish
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 
-
-
+# gcp auth
 brew install --cask google-cloud-sdk
 gcloud auth application-default login
 
+# terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
 
-# weave
-echo 'export GOPRIVATE=weavelab.xyz/*' >> ~/.zshrc
 
