@@ -1,7 +1,9 @@
 
 
 # 
-EMAIL=oli.olafsson@getweave.com
+EMAIL=Oo.oOoooooo@getweave.com
+
+
 ssh-keygen -t ed25519 -C ”${EMAIL}”
 cat ~/.ssh/id_ed25519.pub      # <— take the output and create a new ssh key in github.com/settings/keys
 

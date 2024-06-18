@@ -1,3 +1,4 @@
+
 # mac-dev-setup
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
@@ -13,6 +14,7 @@ curl https://raw.githubusercontent.com/oo-weave/mac-dev-setup/master/src/mac-dev
 # What does it install?
 
 It will install all this tools:
+
 - ## Homebrew
   The Missing Package Manager for macOS, Homebrew installs the stuff you need that Apple (or your Linux system) didn’t.
 
