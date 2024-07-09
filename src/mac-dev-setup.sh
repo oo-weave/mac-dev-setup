@@ -94,4 +94,9 @@ gcloud auth application-default login
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 
+# jq and yq
+brew install jq
+brew install yq
 
+# macOS settings
+defaults write com.apple.screencapture location "$HOME/Documents/snips/"
